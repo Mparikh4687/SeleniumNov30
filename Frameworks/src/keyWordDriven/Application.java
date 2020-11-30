@@ -24,7 +24,7 @@ public class Application {
 			case "openBrowser":
 				mtd.openingBrowser();
 				break;
-				
+			//making changes after R1.1	
 			case "maxBrowser":
 				mtd.maximizeBrowser();
 				break;
