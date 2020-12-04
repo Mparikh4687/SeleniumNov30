@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-03T19:54:25 GMT-05:00" name="Suite" finished-at="2020-12-03T19:55:38 GMT-05:00" duration-ms="73571">
+    <groups>
+    </groups>
+    <test started-at="2020-12-03T19:54:25 GMT-05:00" name="Test" finished-at="2020-12-03T19:55:38 GMT-05:00" duration-ms="73571">
+      <class name="com.automationpractice.TestScripts.PlaceOrderTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.automationpractice.TestScripts.PlaceOrderTest@1fe20588]" started-at="2020-12-03T19:55:11 GMT-05:00" name="openApplication" finished-at="2020-12-03T19:55:18 GMT-05:00" duration-ms="7462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyPlaceOrder()[pri:0, instance:com.automationpractice.TestScripts.PlaceOrderTest@1fe20588]" started-at="2020-12-03T19:55:18 GMT-05:00" name="verifyPlaceOrder" finished-at="2020-12-03T19:55:38 GMT-05:00" duration-ms="20026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlaceOrder -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.automationpractice.TestScripts.PlaceOrderTest@1fe20588]" started-at="2020-12-03T19:55:38 GMT-05:00" name="closeApplication" finished-at="2020-12-03T19:55:38 GMT-05:00" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.automationpractice.TestScripts.PlaceOrderTest -->
+      <class name="com.automationpractice.TestScripts.InvalidLoginTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.automationpractice.TestScripts.InvalidLoginTest@77167fb7]" started-at="2020-12-03T19:55:04 GMT-05:00" name="openApplication" finished-at="2020-12-03T19:55:09 GMT-05:00" duration-ms="5341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyErrorMsg()[pri:0, instance:com.automationpractice.TestScripts.InvalidLoginTest@77167fb7]" started-at="2020-12-03T19:55:09 GMT-05:00" name="verifyErrorMsg" finished-at="2020-12-03T19:55:11 GMT-05:00" duration-ms="1990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMsg -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.automationpractice.TestScripts.InvalidLoginTest@77167fb7]" started-at="2020-12-03T19:55:11 GMT-05:00" name="closeApplication" finished-at="2020-12-03T19:55:11 GMT-05:00" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.automationpractice.TestScripts.InvalidLoginTest -->
+      <class name="com.automationpractice.TestScripts.AlertMessageTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.automationpractice.TestScripts.AlertMessageTest@124c278f]" started-at="2020-12-03T19:54:39 GMT-05:00" name="openApplication" finished-at="2020-12-03T19:54:45 GMT-05:00" duration-ms="6098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyAlertMessage()[pri:0, instance:com.automationpractice.TestScripts.AlertMessageTest@124c278f]" started-at="2020-12-03T19:54:45 GMT-05:00" name="verifyAlertMessage" finished-at="2020-12-03T19:54:50 GMT-05:00" duration-ms="4664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlertMessage -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.automationpractice.TestScripts.AlertMessageTest@124c278f]" started-at="2020-12-03T19:54:50 GMT-05:00" name="closeApplication" finished-at="2020-12-03T19:54:50 GMT-05:00" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.automationpractice.TestScripts.AlertMessageTest -->
+      <class name="com.automationpractice.TestScripts.SuccessMessageTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.automationpractice.TestScripts.SuccessMessageTest@61dd025]" started-at="2020-12-03T19:54:25 GMT-05:00" name="openApplication" finished-at="2020-12-03T19:54:33 GMT-05:00" duration-ms="7856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyMessage()[pri:0, instance:com.automationpractice.TestScripts.SuccessMessageTest@61dd025]" started-at="2020-12-03T19:54:33 GMT-05:00" name="verifyMessage" finished-at="2020-12-03T19:54:39 GMT-05:00" duration-ms="5948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMessage -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.automationpractice.TestScripts.SuccessMessageTest@61dd025]" started-at="2020-12-03T19:54:39 GMT-05:00" name="closeApplication" finished-at="2020-12-03T19:54:39 GMT-05:00" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.automationpractice.TestScripts.SuccessMessageTest -->
+      <class name="com.automationpractice.TestScripts.LogoffVisibilityTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.automationpractice.TestScripts.LogoffVisibilityTest@15b204a1]" started-at="2020-12-03T19:54:50 GMT-05:00" name="openApplication" finished-at="2020-12-03T19:54:55 GMT-05:00" duration-ms="5673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyLogoffBtn()[pri:0, instance:com.automationpractice.TestScripts.LogoffVisibilityTest@15b204a1]" started-at="2020-12-03T19:54:55 GMT-05:00" name="verifyLogoffBtn" finished-at="2020-12-03T19:55:03 GMT-05:00" duration-ms="8122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoffBtn -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.automationpractice.TestScripts.LogoffVisibilityTest@15b204a1]" started-at="2020-12-03T19:55:03 GMT-05:00" name="closeApplication" finished-at="2020-12-03T19:55:04 GMT-05:00" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.automationpractice.TestScripts.LogoffVisibilityTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
